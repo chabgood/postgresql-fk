@@ -1,0 +1,15 @@
+PostgresqlFkPlugin
+==================
+
+Code was brought in from:
+http://www.robbyonrails.com/articles/2005/11/11/rails-migrations-and-postgresql-constraints
+
+I packaged it up into a plugin.
+
+Example
+=======
+
+add_foreign_key(from_table, from_column, to_table)
+drop_foreign_key(from_table, from_column, to_table)
+
+Copyright (c) 2010 [chris habgood], released under the MIT license
